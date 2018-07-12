@@ -1,0 +1,25 @@
+<!DOCTYPE html>  
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"  
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">  
+    <head>  
+        <title>Hello World!</title>  
+        <link rel="stylesheet" type="text/css" href="test.css" />
+    </head>  
+    <body>
+    	<input type="text" name="username" value="wzg" th:value="${hello}" />  
+        <h1 th:inline="text">Hello.v.2</h1>  
+        <p th:text="${hello}"></p>  
+        <div id="test" class="aaa" value="dfsd"></div>
+        <div><img src="default.png" alt="Big Boat" /></div>
+        <table>
+        	<tr th:each="product:${productList}">
+
+　　　　　　　　　　　　<td th:text="${product.count}">1</td>
+                    <td th:text="${product.description}">Red Chair</td>
+                    <td th:text="${product.price}">$123</td>
+                    <td th:text="${product.availableFrom}">2014-12-01</td>
+                </tr>
+        
+        </table>
+    </body>  
+</html>  

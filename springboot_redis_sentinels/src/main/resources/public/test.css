@@ -1,0 +1,39 @@
+body
+{
+    background-color:#d0e4fe;
+}
+h1
+{
+    color:red;
+    text-align:center;
+}
+p
+{
+    font-family:"Times New Roman";
+    font-size:20px;
+}
+table
+{
+border-collapse:collapse;
+width:50%;
+}
+table,th, td
+{
+border: 1px solid black;
+}
+td
+{
+height:50px;
+}
+#test
+{
+	background-image:url('default.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:#b0c4de;
+	background-attachment:inherit;
+	width:50%;
+	height:300px;
+	border: 25px solid green;
+	padding: 25px;
+}
