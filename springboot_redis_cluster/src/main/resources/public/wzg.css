@@ -1,0 +1,60 @@
+body
+{
+	background-image:url("wzg.jpg");
+    background-color:#d0e4fe;
+}
+#all
+{
+	margin:10px 10px 10px 10px;
+	padding: 25px 25px 25px 25px;
+	width:100%;
+	height:100%;
+	border: 25px solid green;
+	border-radius:25px;
+}
+#top
+{
+	background-image:url('default.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:#b0c4de;
+	background-attachment:inherit;
+	width:90%;
+	height:300px;
+	border: 25px solid green;
+	box-shadow: 10px 10px 5px #888888;
+}
+#body
+{
+	background-color:#b0c4de;
+	background-attachment:inherit;
+	width:90%;
+	height:300px;
+	border: 25px solid green;
+	box-shadow: 10px 10px 5px #888888;
+}
+#left
+{
+	background-color:blue;
+	background-attachment:inherit;
+	width:50%;
+	height:300px;
+	float: left;
+}
+#right
+{
+	background-color:red;
+	background-attachment:inherit;
+	width:50%;
+	height:300px;
+	float: left;
+}
+#footer
+{
+	background-color:yellow;
+	background-attachment:inherit;
+	width:90%;
+	height:300px;
+	border: 25px solid green;
+	box-shadow: 10px 10px 5px #888888;
+}
